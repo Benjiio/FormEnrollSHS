@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJYMNHS Enrollment</title>
+  <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="title">Enter Details Below</div>
+    <div class="content">
+      <form action="#" enctype="multipart/form-data">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Learner Reference Number</span>
+            <input type="text" placeholder="Enter your LRN" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="tel" placeholder="Enter your number" required>
+          </div>
+        
+        
+          <!-- Upload Sections -->
+          <div class="input-box">
+            <span class="details">Upload Form 137</span>
+            <input type="file" name="form137" accept=".pdf,.jpg,.jpeg,.png" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Upload Form 138</span>
+            <input type="file" name="form138" accept=".pdf,.jpg,.jpeg,.png" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Upload PSA/Birth Certificate</span>
+            <input type="file" name="birthcertificate" accept=".pdf,.jpg,.jpeg,.png" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Upload Certificate of Good Moral</span>
+            <input type="file" name="goodmoral" accept=".pdf,.jpg,.jpeg,.png" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Upload 2x2 Picture</span>
+            <input type="file" name="picture" accept=".jpg,.jpeg,.png" required>
+          </div>
+        </div>
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Hybrid</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Enroll Now">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
